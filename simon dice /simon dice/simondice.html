@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contenedor">
+
+        <div class="vestuario">
+            <div class="caja"></div>
+
+            <img src="" id="sombreros" alt="">
+            <img id="jaula" alt="">
+            <img id="ropaas" alt="">
+        </div>
+
+        <form action="" id="change">
+            <div class="cuadrito"><input type="text" name="orden"></div>
+            <div class="seleccione">
+                <select name="sombrero" id="" onchange="sombreros()">
+                    <option value="0">Seleccione</option>
+                    <option value="1">Corona</option>
+                    <option value="2">Bombero</option>
+                    <option value="3">Casco</option>
+                    <option value="4">Ingeniero</option>
+                </select>
+
+                <div>
+                    <select name="ropa" id="" onchange="ropaas()">
+                        <option value="0">Seleccione</option>
+                        <option value="1">Vestido</option>
+                        <option value="2">Traje de bombero</option>
+                        <option value="3">Traje de astronauta</option>
+                        <option value="4">Traje de Ingeniero</option>
+                    </select>
+                </div>
+            </div>
+
+
+
+        </form>
+        <button id="cambio" onclick="cambiar"> Cambiar </button>
+
+        <div class="color"><input type="color"></div>
+
+    </div>
+
+    <script src="../simon dice/main.js"></script>
+
+</body>
+
+</html>
